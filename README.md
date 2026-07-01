@@ -15,11 +15,6 @@ I'm an aspiring **AI & Machine Learning Engineer** passionate about building rea
 
 ## 🛠️ Tech Stack
 
-
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=python,c,cpp,java,git,github,numpy,tensorflow,vscode" />
-</p>
-
 **Languages**
 - Python
 - C
