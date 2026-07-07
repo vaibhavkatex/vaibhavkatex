@@ -93,18 +93,23 @@ I'm passionate about building intelligent software, AI-powered automations, and 
 
 ## 🌐 Connect With Me
 
-<p>
-<a href="https://github.com/vaibhavkatex">
-<img src="https://skillicons.dev/icons?i=github" />
-</a>
-</p>
+<p align="left">
+  <a href="https://github.com/vaibhavkatex" target="_blank">
+    <img src="https://cdn.simpleicons.org/github" alt="GitHub" width="40" height="40"/>
+  </a>
 
-<p>
-<a href="https://github.com/vaibhavkatex">
-<img src="https://skillicons.dev/icons?i=github" />
-</a>
-</p>
+  <a href="https://www.instagram.com/vaibhavkate___" target="_blank">
+    <img src="https://cdn.simpleicons.org/instagram" alt="Instagram" width="40" height="40"/>
+  </a>
 
+  <a href="https://www.linkedin.com/in/vaibhav-kate-47300840b" target="_blank">
+    <img src="https://cdn.simpleicons.org/linkedin" alt="LinkedIn" width="40" height="40"/>
+  </a>
+
+  <a href="https://wa.me/919356076623" target="_blank">
+    <img src="https://cdn.simpleicons.org/whatsapp" alt="WhatsApp" width="40" height="40"/>
+  </a>
+</p>
 ---
 
 <div align="center">
