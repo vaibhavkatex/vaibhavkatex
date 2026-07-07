@@ -99,6 +99,12 @@ I'm passionate about building intelligent software, AI-powered automations, and 
 </a>
 </p>
 
+<p>
+<a href="https://github.com/vaibhavkatex">
+<img src="https://skillicons.dev/icons?i=github" />
+</a>
+</p>
+
 ---
 
 <div align="center">
