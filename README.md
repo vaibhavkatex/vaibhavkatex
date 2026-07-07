@@ -93,25 +93,25 @@ I'm passionate about building intelligent software, AI-powered automations, and 
 
 ## 🌐 Connect With Me
 
-<p align="left">
+<p align="center">
   <a href="https://github.com/vaibhavkatex" target="_blank">
-    <img src="https://cdn.simpleicons.org/github" alt="GitHub" width="40" height="40"/>
+    <img src="https://img.icons8.com/fluency/96/github.png" alt="GitHub" width="55"/>
   </a>
 
   <a href="https://www.instagram.com/vaibhavkate___" target="_blank">
-    <img src="https://cdn.simpleicons.org/instagram" alt="Instagram" width="40" height="40"/>
+    <img src="https://img.icons8.com/fluency/96/instagram-new.png" alt="Instagram" width="55"/>
   </a>
 
   <a href="https://www.linkedin.com/in/vaibhav-kate-47300840b" target="_blank">
-    <img src="https://cdn.simpleicons.org/linkedin" alt="LinkedIn" width="40" height="40"/>
+    <img src="https://img.icons8.com/fluency/96/linkedin.png" alt="LinkedIn" width="55"/>
   </a>
 
   <a href="https://wa.me/919356076623" target="_blank">
-    <img src="https://cdn.simpleicons.org/whatsapp" alt="WhatsApp" width="40" height="40"/>
+    <img src="https://img.icons8.com/fluency/96/whatsapp.png" alt="WhatsApp" width="55"/>
   </a>
 </p>
----
 
+---
 <div align="center">
 
 ### 🚀 *"Learn • Build • Share • Repeat"*
