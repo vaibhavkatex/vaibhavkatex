@@ -94,22 +94,25 @@ I'm passionate about building intelligent software, AI-powered automations, and 
 ## 🌐 Connect With Me
 
 <p align="center">
-  <a href="https://github.com/vaibhavkatex">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  <a href="https://github.com/vaibhavkatex" target="_blank">
+    <img src="https://img.icons8.com/fluency/96/github.png" alt="GitHub" width="55"/>
   </a>
 
-  <a href="https://www.instagram.com/vaibhavkate___">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
+  <a href="https://www.instagram.com/vaibhavkate___" target="_blank">
+    <img src="https://img.icons8.com/fluency/96/instagram-new.png" alt="Instagram" width="55"/>
   </a>
 
-  <a href="https://www.linkedin.com/in/vaibhav-kate-47300840b">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  <a href="https://www.linkedin.com/in/vaibhav-kate-47300840b" target="_blank">
+    <img src="https://img.icons8.com/fluency/96/linkedin.png" alt="LinkedIn" width="55"/>
   </a>
 
-  <a href="https://wa.me/919356076623">
-    <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/>
+  <a href="https://wa.me/919356076623" target="_blank">
+    <img src="https://img.icons8.com/fluency/96/whatsapp.png" alt="WhatsApp" width="55"/>
   </a>
 </p>
+
+---
+<div align="center">
 
 ### 🚀 *"Learn • Build • Share • Repeat"*
 
