@@ -1,5 +1,4 @@
-<h1 align="center">Hi 👋, Say My Name !
-  I'm Vaibhav</h1>
+<h1 align="center">Hi 👋, Say My Name , I'm Vaibhav</h1>
 <h3 align="center">Aspiring AI & Machine Learning Engineer | AI Automation Builder | Open Source Learner</h3>
 
 <p align="center">
