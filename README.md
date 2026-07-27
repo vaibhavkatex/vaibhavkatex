@@ -25,30 +25,25 @@ I'm passionate about building intelligent software, AI-powered automations, and 
 
 ### 💻 Languages
 
-<p>
-<img src="https://skillicons.dev/icons?i=python,c,cpp,java" />
+<p align="left">
+<img src="https://go-skill-icons.vercel.app/api/icons?i=python,c,cpp,java" height="55"/>
 </p>
 
 ### ⚙️ Tools & Platforms
 
-<p>
-<img src="https://skillicons.dev/icons?i=git,github,vscode" />
+<p align="left">
+<img src="https://go-skill-icons.vercel.app/api/icons?i=git,github,vscode" height="55"/>
 <img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white"/>
 </p>
 
 ### 📚 Currently Learning
 
-<p>
-<img src="https://skillicons.dev/icons?i=python,tensorflow" />
-<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
-<img src="https://img.shields.io/badge/Pygame-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/Machine%20Learning-FF6F00?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Data%20Analysis-0A66C2?style=for-the-badge"/>
-<img src="https://pin.it/4tAVSO6h1"/>
+<p align="left">
+<img src="https://go-skill-icons.vercel.app/api/icons?i=python,tensorflow,numpy,pandas" height="55"/>
+<img src="https://img.shields.io/badge/Pygame-3776AB?style=for-the-badge&logo=pygame&logoColor=white"/>
+<img src="https://img.shields.io/badge/Machine%20Learning-FF6F00?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
+<img src="https://img.shields.io/badge/Data%20Analysis-0A66C2?style=for-the-badge&logo=tableau&logoColor=white"/>
 </p>
-
----
 
 ## 🚀 Current Projects
 
