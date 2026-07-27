@@ -1,5 +1,5 @@
 <p align="center">
-# Hi 👋, I'm Vaibhav
+### Hi 👋, I'm Vaibhav
 
 ### 🤖 Aspiring AI & Machine Learning Engineer | AI Automation Builder | Open Source Learner
 </p>
