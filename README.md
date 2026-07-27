@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Vaibhav</h1>
-<h3 align="center">Aspiring AI & Machine Learning Engineer | AI Automation Builder | Open Source Learner</h3>
+<h3 align="center">Aspiring AI & Machine Learning Engineer | Open Source Learner</h3>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=vaibhavkatex&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
@@ -45,6 +45,7 @@ I'm passionate about building intelligent software, AI-powered automations, and 
 <img src="https://img.shields.io/badge/Pygame-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
 <img src="https://img.shields.io/badge/Machine%20Learning-FF6F00?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Data%20Analysis-0A66C2?style=for-the-badge"/>
+<img src="https://pin.it/4tAVSO6h1"/>
 </p>
 
 ---
