@@ -82,7 +82,16 @@ I'm passionate about building intelligent software, AI-powered automations, and 
   </a>
 </p>
 
+<p align="center">
+  <a href="https://discord.com/users/pinpricsx">
+    <img src="https://img.shields.io/badge/Discord-pinpricsx-5865F2?style=for-the-badge&logo=discord&logoColor=white" />
+  </a>
 
+</a>
+  <a href="https://x.com/vaibhav_kate__">
+    <img src="https://skillicons.dev/icons?i=twitter" height="45" />
+  </a>
+</p>
 
 ---
 <div align="center">
