@@ -1,6 +1,8 @@
+<p align="center">
 # Hi 👋, I'm Vaibhav
 
 ### 🤖 Aspiring AI & Machine Learning Engineer | AI Automation Builder | Open Source Learner
+</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Focus-AI%20%26%20Machine%20Learning-8A2BE2?style=for-the-badge&logo=python&logoColor=white" />
