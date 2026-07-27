@@ -47,10 +47,8 @@ I'm passionate about building intelligent software, AI-powered automations, and 
 
 ## 🚀 Current Projects
 
-- 🏡 AI-powered **n8n Automation System** for a Real Estate Business
-- 🤖 AI Workflow Automation
-- 📊 Python Automation & Data Analysis Projects
-- 📚 Mastering Python Libraries (NumPy, Pandas, TensorFlow & Pygame)
+- 🫀 **Heart Disease Prediction** — Logistic Regression, Streamlit
+- 🚗 **BMW Price Prediction** — Linear Regression, Deployment
 
 
 ---
