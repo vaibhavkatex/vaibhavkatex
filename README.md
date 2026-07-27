@@ -1,9 +1,21 @@
-<p align="center">
-### Hi 👋, I'm Vaibhav
+<div align="center">
 
-### 🤖 Aspiring AI & Machine Learning Engineer | AI Automation Builder | Open Source Learner
-</p>
+# 👋 Hey, I'm Vaibhav
 
+### 🤖 Aspiring AI & Machine Learning Engineer
+### ⚡ AI Automation Builder • Open Source Learner
+
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&pause=1200&color=00F7FF&center=true&vCenter=true&width=700&lines=Python+Developer;AI+%26+Machine+Learning;Building+Real-World+Projects;Open+Source+Learner;Always+Learning+🚀" />
+
+<br>
+
+<img src="https://komarev.com/ghpvc/?username=vaibhavkatex&label=Profile+Views&style=for-the-badge&color=0e75b6"/>
+
+<img src="https://img.shields.io/github/followers/vaibhavkatex?style=for-the-badge&logo=github"/>
+
+<img src="https://img.shields.io/github/stars/vaibhavkatex?style=for-the-badge"/>
+
+</div>
 <p align="center">
   <img src="https://img.shields.io/badge/Focus-AI%20%26%20Machine%20Learning-8A2BE2?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/Building-n8n%20AI%20Automations-FF4500?style=for-the-badge&logo=n8n&logoColor=white" />
