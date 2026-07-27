@@ -3,15 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vaibhav | AI & Machine Learning Engineer</title>
-  <meta name="description" content="Vaibhav's Developer Profile - Aspiring AI & Machine Learning Engineer, AI Automation Builder, and Open Source Learner.">
+  <title>Vaibhav | AI & ML Engineer</title>
+  <meta name="description" content="Vaibhav's Developer Profile - Aspiring AI & Machine Learning Engineer">
   
-  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
-  
-  <!-- FontAwesome Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   
   <link rel="stylesheet" href="style.css">
@@ -23,307 +20,160 @@
   <div class="custom-cursor-ring" id="cursorRing"></div>
   <canvas id="particleCanvas"></canvas>
 
-  <!-- Ambient Glow Backgrounds -->
-  <div class="bg-blur blur-purple"></div>
-  <div class="bg-blur blur-blue"></div>
-  <div class="bg-blur blur-cyan"></div>
+  <main class="main-container">
 
-  <!-- Top Control Bar -->
-  <header class="top-nav">
-    <div class="nav-container">
-      <div class="brand-logo magnet-target">
-        <i class="fa-solid fa-brain glow-icon"></i>
-        <span>vaibhav<span class="highlight">.ai</span></span>
+    <!-- HERO HEADER -->
+    <header class="profile-header glass-card">
+      <div class="avatar-wrap">
+        <div class="avatar-glow"></div>
+        <div class="avatar-circle">
+          <i class="fa-solid fa-user-ninja"></i>
+        </div>
       </div>
 
-      <div class="controls-group">
-        <span class="control-label"><i class="fa-solid fa-wand-magic-sparkles"></i> Cursor Effect:</span>
-        <button class="cursor-mode-btn active magnet-target" data-mode="cyber">Cyber Glow</button>
-        <button class="cursor-mode-btn magnet-target" data-mode="particles">Sparkles</button>
-        <button class="cursor-mode-btn magnet-target" data-mode="minimal">Minimal</button>
+      <h1 class="user-title">Hi 👋, I'm <span class="highlight">Vaibhav</span></h1>
+      <p class="user-subtitle">🤖 Aspiring AI & Machine Learning Engineer | AI Automation Builder | Open Source Learner</p>
+
+      <div class="badges-row">
+        <span class="badge badge-purple">AI & Machine Learning</span>
+        <span class="badge badge-orange">n8n Automations</span>
+        <span class="badge badge-green">Real Estate Solutions</span>
+        <span class="badge badge-blue">Building in Public</span>
       </div>
-    </div>
-  </header>
+    </header>
 
-  <!-- Main 0xpdev Layout Wrapper -->
-  <main class="main-wrapper">
-    <div class="profile-frame">
+    <!-- ABOUT SECTION -->
+    <section class="section-card glass-card">
+      <h2><i class="fa-solid fa-rocket text-cyan"></i> 🚀 About Me</h2>
+      <p class="about-desc">
+        I'm passionate about building intelligent software, AI-powered automations, and solving real-world problems through code.
+      </p>
+      
+      <ul class="about-bullets">
+        <li>🌱 Currently learning <strong>Python for AI & Machine Learning</strong></li>
+        <li>🤖 Building <strong>AI-powered n8n automation workflows</strong></li>
+        <li>🏡 Developing automation solutions for <strong>Real Estate Businesses</strong></li>
+        <li>💻 Building and sharing projects every day</li>
+        <li>📚 Learning in public and improving consistently</li>
+        <li>🎮 Part-time Gamer • Full-time Learner</li>
+        <li>🎯 Goal: Become a Professional AI Engineer</li>
+      </ul>
+    </section>
 
-      <!-- ==========================================
-           1. 0xpdev HEADER HERO CARD
-           ========================================== -->
-      <section class="xp-card xp-hero-card magnet-target">
-        <div class="xp-hero-bg-glow"></div>
-        <div class="xp-hero-content">
-          <div class="avatar-container">
-            <div class="avatar-ring"></div>
-            <div class="avatar-box">
-              <i class="fa-solid fa-user-ninja avatar-icon"></i>
-            </div>
-            <div class="avatar-online-dot" title="Active Learning & Building"></div>
-          </div>
-          
-          <div class="xp-hero-info">
-            <h1 class="xp-name">Vaibhav</h1>
-            <p class="xp-title">Aspiring AI & Machine Learning Engineer</p>
-          </div>
+    <!-- TECH STACK -->
+    <section class="section-card glass-card">
+      <h2><i class="fa-solid fa-layer-group text-purple"></i> 🛠️ Tech Stack</h2>
+
+      <div class="tech-group">
+        <h3>💻 Languages</h3>
+        <div class="pills-flex">
+          <span class="pill-badge"><i class="fa-brands fa-python python-color"></i> Python</span>
+          <span class="pill-badge"><i class="fa-solid fa-c"></i> C</span>
+          <span class="pill-badge"><i class="fa-solid fa-code"></i> C++</span>
+          <span class="pill-badge"><i class="fa-brands fa-java java-color"></i> Java</span>
         </div>
-      </section>
-
-      <!-- ==========================================
-           2. 0xpdev 3-COLUMN METRICS STATS CARDS
-           ========================================== -->
-      <section class="xp-stats-row">
-        <div class="xp-stat-card magnet-target">
-          <span class="xp-stat-val">100+</span>
-          <span class="xp-stat-lbl">PROJECTS GOAL</span>
-        </div>
-
-        <div class="xp-stat-card magnet-target">
-          <span class="xp-stat-val">n8n</span>
-          <span class="xp-stat-lbl">AI AUTOMATIONS</span>
-        </div>
-
-        <div class="xp-stat-card magnet-target">
-          <span class="xp-stat-val cyan-text">2026</span>
-          <span class="xp-stat-lbl">AI ENGINEER TARGET</span>
-        </div>
-      </section>
-
-      <!-- ==========================================
-           3. 0xpdev 3-COLUMN SKILLS & FOCUS PANEL
-           ========================================== -->
-      <section class="xp-card xp-skills-panel magnet-target">
-        <div class="skills-column">
-          <span class="skills-col-title">LANGUAGES</span>
-          <div class="skills-pills-wrap">
-            <span class="xp-pill magnet-target">Python</span>
-            <span class="xp-pill magnet-target">C</span>
-            <span class="xp-pill magnet-target">C++</span>
-            <span class="xp-pill magnet-target">Java</span>
-          </div>
-        </div>
-
-        <div class="column-divider"></div>
-
-        <div class="skills-column">
-          <span class="skills-col-title">TOOLS</span>
-          <div class="skills-pills-wrap">
-            <span class="xp-pill magnet-target">Git</span>
-            <span class="xp-pill magnet-target">GitHub</span>
-            <span class="xp-pill magnet-target">VS Code</span>
-            <span class="xp-pill xp-pill-n8n magnet-target">n8n</span>
-          </div>
-        </div>
-
-        <div class="column-divider"></div>
-
-        <div class="skills-column">
-          <span class="skills-col-title">FOCUS</span>
-          <div class="skills-pills-wrap">
-            <span class="xp-pill magnet-target">AI & ML</span>
-            <span class="xp-pill magnet-target">n8n Workflows</span>
-            <span class="xp-pill magnet-target">Real Estate AI</span>
-            <span class="xp-pill magnet-target">Data Analysis</span>
-          </div>
-        </div>
-      </section>
-
-      <!-- ==========================================
-           4. 0xpdev CENTERED SOCIAL BUTTONS ROW
-           ========================================== -->
-      <section class="xp-social-row">
-        <a href="https://github.com/vaibhavkatex" target="_blank" class="xp-social-btn magnet-target">
-          <i class="fa-brands fa-github"></i>
-          <span>GitHub</span>
-        </a>
-
-        <a href="https://www.linkedin.com/in/vaibhav-kate-47300840b" target="_blank" class="xp-social-btn magnet-target">
-          <i class="fa-brands fa-linkedin-in text-blue"></i>
-          <span>LinkedIn</span>
-        </a>
-
-        <a href="https://www.instagram.com/vaibhavkate___" target="_blank" class="xp-social-btn magnet-target">
-          <i class="fa-brands fa-instagram text-pink"></i>
-          <span>Instagram</span>
-        </a>
-
-        <a href="https://wa.me/919356076623" target="_blank" class="xp-social-btn magnet-target">
-          <i class="fa-brands fa-whatsapp text-green"></i>
-          <span>WhatsApp</span>
-        </a>
-
-        <a href="mailto:vaibhavkatex@gmail.com" class="xp-social-btn magnet-target">
-          <i class="fa-solid fa-envelope text-yellow"></i>
-          <span>Email</span>
-        </a>
-      </section>
-
-      <!-- ==========================================
-           5. INTERACTIVE TAB EXPANDER & README GENERATOR
-           ========================================== -->
-      <nav class="nav-tabs-bar">
-        <button class="tab-btn active magnet-target" data-tab="projects">
-          <i class="fa-solid fa-diagram-project"></i> Current Projects
-        </button>
-        <button class="tab-btn magnet-target" data-tab="goals">
-          <i class="fa-solid fa-bullseye"></i> 2026 Goals Checklist
-        </button>
-        <button class="tab-btn magnet-target" data-tab="activity">
-          <i class="fa-solid fa-chart-line"></i> GitHub Activity
-        </button>
-        <button class="tab-btn copy-readme-tab magnet-target" data-tab="readme">
-          <i class="fa-brands fa-markdown"></i> README.md Code
-        </button>
-      </nav>
-
-      <div class="tab-content-area">
-
-        <!-- PROJECTS TAB -->
-        <div class="tab-pane active" id="projects">
-          <div class="projects-grid">
-            <div class="project-card magnet-target">
-              <div class="project-card-header">
-                <span class="project-badge live"><i class="fa-solid fa-circle"></i> Active</span>
-                <i class="fa-solid fa-house-laptop project-icon text-cyan"></i>
-              </div>
-              <h3>AI Real Estate n8n System</h3>
-              <p>Autonomous lead qualification & prompt pipeline for real estate clients with WhatsApp auto-responders.</p>
-              <div class="project-tags">
-                <span>n8n</span><span>Python</span><span>OpenAI</span><span>Webhooks</span>
-              </div>
-            </div>
-
-            <div class="project-card magnet-target">
-              <div class="project-card-header">
-                <span class="project-badge building"><i class="fa-solid fa-rotate"></i> Building</span>
-                <i class="fa-solid fa-robot project-icon text-purple"></i>
-              </div>
-              <h3>AI Workflow Automation</h3>
-              <p>Intelligent agent pipelines automating data parsing, email drafting, and multi-app orchestration.</p>
-              <div class="project-tags">
-                <span>Python</span><span>LLM Agents</span><span>APIs</span>
-              </div>
-            </div>
-
-            <div class="project-card magnet-target">
-              <div class="project-card-header">
-                <span class="project-badge completed"><i class="fa-solid fa-check"></i> Mastery</span>
-                <i class="fa-solid fa-chart-pie project-icon text-green"></i>
-              </div>
-              <h3>Python Data Analysis</h3>
-              <p>Scientific data manipulation, matrix computations, and data analytics using NumPy & Pandas.</p>
-              <div class="project-tags">
-                <span>NumPy</span><span>Pandas</span><span>Python</span>
-              </div>
-            </div>
-
-            <div class="project-card magnet-target">
-              <div class="project-card-header">
-                <span class="project-badge building"><i class="fa-solid fa-gamepad"></i> Game Dev</span>
-                <i class="fa-solid fa-gamepad project-icon text-yellow"></i>
-              </div>
-              <h3>Pygame ML Experiments</h3>
-              <p>Interactive 2D game loops combined with algorithmic learning modules and game agents.</p>
-              <div class="project-tags">
-                <span>Pygame</span><span>Python</span><span>Game Dev</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- GOALS TAB -->
-        <div class="tab-pane" id="goals">
-          <div class="xp-card goals-card">
-            <div class="goals-header">
-              <h2><i class="fa-solid fa-bullseye text-cyan"></i> 2026 Target Milestones</h2>
-              <span class="goals-count-badge" id="goalsProgress">0 / 6 Completed</span>
-            </div>
-            <div class="goals-list">
-              <label class="goal-row magnet-target">
-                <input type="checkbox" class="goal-cb">
-                <span class="goal-box"><i class="fa-solid fa-check"></i></span>
-                <span>🚀 Build <strong>100+ Python & AI Projects</strong></span>
-              </label>
-
-              <label class="goal-row magnet-target">
-                <input type="checkbox" class="goal-cb">
-                <span class="goal-box"><i class="fa-solid fa-check"></i></span>
-                <span>🧠 Master Core Machine Learning & AI Concepts</span>
-              </label>
-
-              <label class="goal-row magnet-target">
-                <input type="checkbox" class="goal-cb" checked>
-                <span class="goal-box"><i class="fa-solid fa-check"></i></span>
-                <span>⚡ Build Production-Ready AI Automation Systems (n8n & Python)</span>
-              </label>
-
-              <label class="goal-row magnet-target">
-                <input type="checkbox" class="goal-cb" checked>
-                <span class="goal-box"><i class="fa-solid fa-check"></i></span>
-                <span>🌍 Contribute to Open Source Repositories</span>
-              </label>
-
-              <label class="goal-row magnet-target">
-                <input type="checkbox" class="goal-cb">
-                <span class="goal-box"><i class="fa-solid fa-check"></i></span>
-                <span>💼 Land a Professional AI/ML Engineering Role</span>
-              </label>
-
-              <label class="goal-row magnet-target">
-                <input type="checkbox" class="goal-cb" checked>
-                <span class="goal-box"><i class="fa-solid fa-check"></i></span>
-                <span>📈 Share Learning Journey by Building in Public</span>
-              </label>
-            </div>
-          </div>
-        </div>
-
-        <!-- ACTIVITY TAB -->
-        <div class="tab-pane" id="activity">
-          <div class="xp-card activity-card">
-            <h2 class="activity-title"><i class="fa-solid fa-fire text-orange"></i> GitHub Live Analytics</h2>
-            <div class="activity-grid">
-              <div class="gh-img-wrap magnet-target">
-                <img src="https://github-readme-stats.vercel.app/api?username=vaibhavkatex&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats">
-              </div>
-              <div class="gh-img-wrap magnet-target">
-                <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vaibhavkatex&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages">
-              </div>
-            </div>
-            <div class="gh-img-wrap streak-wrap magnet-target">
-              <img src="https://streak-stats.demolab.com?user=vaibhavkatex&theme=tokyonight&hide_border=true" alt="GitHub Streak">
-            </div>
-          </div>
-        </div>
-
-        <!-- README CODE TAB -->
-        <div class="tab-pane" id="readme">
-          <div class="xp-card readme-card">
-            <div class="readme-card-top">
-              <div>
-                <h2><i class="fa-brands fa-markdown text-purple"></i> GitHub README.md Code</h2>
-                <p>Styled exactly like 0xpdev for your GitHub profile repository.</p>
-              </div>
-              <button class="copy-btn magnet-target" id="copyReadmeBtn">
-                <i class="fa-regular fa-copy"></i> Copy Markdown Code
-              </button>
-            </div>
-            <div class="code-box">
-              <pre><code id="readmeCodeBlock"></code></pre>
-            </div>
-          </div>
-        </div>
-
       </div>
 
-      <!-- FOOTER BANNER -->
-      <footer class="xp-footer">
-        <img src="https://komarev.com/ghpvc/?username=vaibhavkatex&label=Profile%20Views&color=70a5fd&style=flat-square" alt="Profile Views">
-        <p class="footer-quote">🚀 <em>"Learn • Build • Share • Repeat"</em></p>
-      </footer>
+      <div class="tech-group">
+        <h3>⚙️ Tools & Platforms</h3>
+        <div class="pills-flex">
+          <span class="pill-badge"><i class="fa-brands fa-git-alt git-color"></i> Git</span>
+          <span class="pill-badge"><i class="fa-brands fa-github"></i> GitHub</span>
+          <span class="pill-badge"><i class="fa-solid fa-code text-blue"></i> VS Code</span>
+          <span class="pill-badge n8n-badge"><i class="fa-solid fa-bolt text-red"></i> n8n</span>
+        </div>
+      </div>
 
-    </div>
+      <div class="tech-group">
+        <h3>📚 Currently Learning</h3>
+        <div class="pills-flex">
+          <span class="pill-badge"><i class="fa-solid fa-brain text-purple"></i> TensorFlow</span>
+          <span class="pill-badge"><i class="fa-solid fa-calculator text-cyan"></i> NumPy</span>
+          <span class="pill-badge"><i class="fa-solid fa-table text-green"></i> Pandas</span>
+          <span class="pill-badge"><i class="fa-solid fa-gamepad text-yellow"></i> Pygame</span>
+          <span class="pill-badge"><i class="fa-solid fa-robot text-orange"></i> Machine Learning</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section-card glass-card">
+      <h2><i class="fa-solid fa-laptop-code text-green"></i> ⚡ Current Projects</h2>
+      <div class="projects-list">
+        <div class="project-box">
+          <h4>🏡 AI-powered n8n Automation System</h4>
+          <p>Lead qualification & automated prompt pipeline for Real Estate businesses.</p>
+        </div>
+        <div class="project-box">
+          <h4>🤖 AI Workflow Automations</h4>
+          <p>Smart agentic pipelines integrating LLMs with web services.</p>
+        </div>
+        <div class="project-box">
+          <h4>📊 Python Automation & Data Analysis</h4>
+          <p>Scientific data manipulation scripts with NumPy and Pandas.</p>
+        </div>
+        <div class="project-box">
+          <h4>🎮 Pygame & Machine Learning Experiments</h4>
+          <p>2D games combined with foundational machine learning logic.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- GOALS -->
+    <section class="section-card glass-card">
+      <h2><i class="fa-solid fa-bullseye text-orange"></i> 🎯 2026 Goals</h2>
+      <div class="goals-grid">
+        <div class="goal-item"><i class="fa-solid fa-circle-check text-green"></i> 🚀 Build 100+ Python Projects</div>
+        <div class="goal-item"><i class="fa-solid fa-circle-check text-green"></i> 🧠 Master Core AI & Machine Learning</div>
+        <div class="goal-item"><i class="fa-solid fa-circle-check text-green"></i> ⚡ Build Production AI Systems</div>
+        <div class="goal-item"><i class="fa-solid fa-circle-check text-green"></i> 🌍 Contribute to Open Source</div>
+        <div class="goal-item"><i class="fa-solid fa-circle-check text-green"></i> 💼 Land an AI/ML Role</div>
+        <div class="goal-item"><i class="fa-solid fa-circle-check text-green"></i> 📈 Share Journey in Public</div>
+      </div>
+    </section>
+
+    <!-- STATS -->
+    <section class="section-card glass-card">
+      <h2><i class="fa-solid fa-chart-simple text-blue"></i> 📊 GitHub Analytics</h2>
+      <div class="stats-flex">
+        <img src="https://github-readme-stats.vercel.app/api?username=vaibhavkatex&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats">
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vaibhavkatex&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages">
+      </div>
+    </section>
+
+    <!-- README CODE MODAL / BOX -->
+    <section class="section-card glass-card">
+      <div class="readme-header-bar">
+        <h2><i class="fa-brands fa-markdown text-cyan"></i> GitHub README.md Code</h2>
+        <button class="copy-btn" id="copyReadmeBtn">
+          <i class="fa-regular fa-copy"></i> Copy Markdown Code
+        </button>
+      </div>
+      <div class="code-wrap">
+        <pre><code id="readmeCodeBlock"></code></pre>
+      </div>
+    </section>
+
+    <!-- CONNECT -->
+    <footer class="footer-card glass-card">
+      <h3>🌐 Connect With Me</h3>
+      <div class="social-flex">
+        <a href="https://github.com/vaibhavkatex" target="_blank" class="social-link" title="GitHub">
+          <img src="https://img.icons8.com/fluency/96/github.png" alt="GitHub">
+        </a>
+        <a href="https://www.linkedin.com/in/vaibhav-kate-47300840b" target="_blank" class="social-link" title="LinkedIn">
+          <img src="https://img.icons8.com/fluency/96/linkedin.png" alt="LinkedIn">
+        </a>
+        <a href="https://www.instagram.com/vaibhavkate___" target="_blank" class="social-link" title="Instagram">
+          <img src="https://img.icons8.com/fluency/96/instagram-new.png" alt="Instagram">
+        </a>
+        <a href="https://wa.me/919356076623" target="_blank" class="social-link" title="WhatsApp">
+          <img src="https://img.icons8.com/fluency/96/whatsapp.png" alt="WhatsApp">
+        </a>
+      </div>
+      <p class="quote">🚀 <em>"Learn • Build • Share • Repeat"</em></p>
+    </footer>
+
   </main>
 
   <script src="app.js"></script>
