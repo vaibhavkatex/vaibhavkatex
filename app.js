@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let mouseY = window.innerHeight / 2;
   let ringX = mouseX;
   let ringY = mouseY;
-  let cursorMode = 'cyber'; // 'cyber', 'particles', 'minimal'
+  let cursorMode = 'cyber';
   const particles = [];
 
   function resizeCanvas() {
@@ -162,90 +162,80 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const rawReadmeMarkdown = `<div align="center">
 
-<!-- 1. 0xpdev HEADER HERO CARD -->
+<!-- 1. HEADER HERO CARD -->
 <table border="0" cellspacing="0" cellpadding="0" width="100%">
   <tr>
-    <td style="background: radial-gradient(circle at 80% 50%, #2e1065 0%, #080911 75%); border: 1px solid #1e2436; border-radius: 18px; padding: 35px 40px;">
-      <table border="0" cellspacing="0" cellpadding="0" width="100%">
-        <tr>
-          <td width="130" align="center" valign="middle">
-            <img src="https://img.icons8.com/isometric-line/120/brain.png" width="100" style="border-radius: 50%; border: 3px solid #70a5fd; background: #06070c; padding: 10px; box-shadow: 0 0 20px #70a5fd;" alt="Vaibhav Avatar" />
-          </td>
-          <td width="30"></td>
-          <td valign="middle" align="left">
-            <h1 style="margin: 0; font-size: 38px; color: #ffffff; font-family: -apple-system, sans-serif; font-weight: 800;">Vaibhav</h1>
-            <p style="margin: 6px 0 0 0; font-size: 18px; color: #bc8cff; font-weight: 500;">Aspiring AI & Machine Learning Engineer</p>
-          </td>
-        </tr>
-      </table>
+    <td align="center" style="background-color: #0d1117; border: 1px solid #30363d; border-radius: 16px; padding: 30px;">
+      <img src="https://img.icons8.com/isometric-line/120/brain.png" width="90" alt="Vaibhav Brain Logo" />
+      <h1 align="center"><b>Vaibhav</b></h1>
+      <p align="center"><b>🤖 Aspiring AI & Machine Learning Engineer | AI Automation Builder | Open Source Learner</b></p>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Focus-AI%20%26%20Machine%20Learning-8A2BE2?style=for-the-badge&logo=python&logoColor=white" />
+        <img src="https://img.shields.io/badge/Building-n8n%20AI%20Automations-FF4500?style=for-the-badge&logo=n8n&logoColor=white" />
+        <img src="https://img.shields.io/badge/Status-Learning%20In%20Public-00FF7F?style=for-the-badge" />
+      </p>
     </td>
   </tr>
 </table>
 
 <br/>
 
-<!-- 2. 0xpdev 3-COLUMN METRICS STATS CARDS -->
-<table border="0" cellspacing="12" cellpadding="0" width="100%">
+<!-- 2. 3-COLUMN METRICS STATS CARDS -->
+<table border="0" cellspacing="10" cellpadding="0" width="100%">
   <tr>
-    <td align="center" width="33%" style="background: #0c0e18; border: 1px solid #1e2436; border-radius: 16px; padding: 25px 15px;">
-      <h1 style="margin: 0; font-size: 34px; color: #ffffff; font-weight: 800;">100+</h1>
-      <p style="margin: 6px 0 0 0; color: #64748b; font-size: 11px; letter-spacing: 2px; font-weight: 700;">PROJECTS GOAL</p>
+    <td align="center" width="33%" style="background-color: #161b22; border: 1px solid #30363d; border-radius: 12px; padding: 20px 10px;">
+      <h1 align="center" style="margin: 0; color: #58a6ff; font-size: 32px;">100+</h1>
+      <p align="center" style="margin: 4px 0 0 0; color: #8b949e; font-size: 11px;"><b>PROJECTS GOAL</b></p>
     </td>
-    <td align="center" width="33%" style="background: #0c0e18; border: 1px solid #1e2436; border-radius: 16px; padding: 25px 15px;">
-      <h1 style="margin: 0; font-size: 34px; color: #ffffff; font-weight: 800;">n8n</h1>
-      <p style="margin: 6px 0 0 0; color: #64748b; font-size: 11px; letter-spacing: 2px; font-weight: 700;">AI AUTOMATIONS</p>
+    <td align="center" width="33%" style="background-color: #161b22; border: 1px solid #30363d; border-radius: 12px; padding: 20px 10px;">
+      <h1 align="center" style="margin: 0; color: #bc8cff; font-size: 32px;">n8n</h1>
+      <p align="center" style="margin: 4px 0 0 0; color: #8b949e; font-size: 11px;"><b>AI AUTOMATIONS</b></p>
     </td>
-    <td align="center" width="33%" style="background: #0c0e18; border: 1px solid #1e2436; border-radius: 16px; padding: 25px 15px;">
-      <h1 style="margin: 0; font-size: 34px; color: #70a5fd; font-weight: 800;">2026</h1>
-      <p style="margin: 6px 0 0 0; color: #64748b; font-size: 11px; letter-spacing: 2px; font-weight: 700;">AI ENGINEER TARGET</p>
+    <td align="center" width="33%" style="background-color: #161b22; border: 1px solid #30363d; border-radius: 12px; padding: 20px 10px;">
+      <h1 align="center" style="margin: 0; color: #3fb950; font-size: 32px;">2026</h1>
+      <p align="center" style="margin: 4px 0 0 0; color: #8b949e; font-size: 11px;"><b>AI ENGINEER TARGET</b></p>
     </td>
   </tr>
 </table>
 
 <br/>
 
-<!-- 3. 0xpdev 3-COLUMN SKILLS & FOCUS PANEL -->
+<!-- 3. 3-COLUMN SKILLS & FOCUS PANEL -->
 <table border="0" cellspacing="0" cellpadding="0" width="100%">
   <tr>
-    <td style="background: radial-gradient(circle at 50% 50%, #1e1b4b 0%, #080911 80%); border: 1px solid #1e2436; border-radius: 18px; padding: 30px 35px;">
+    <td style="background-color: #0d1117; border: 1px solid #30363d; border-radius: 16px; padding: 25px;">
       <table border="0" cellspacing="0" cellpadding="0" width="100%">
         <tr>
           <!-- LANGUAGES -->
-          <td width="31%" valign="top" align="left">
-            <p style="margin: 0 0 14px 0; color: #64748b; font-size: 11px; letter-spacing: 2.5px; font-weight: 700;">LANGUAGES</p>
-            <p style="margin: 0; line-height: 2.2;">
-              <img src="https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python&logoColor=3776AB&labelColor=0d1117" />
-              <img src="https://img.shields.io/badge/C-0d1117?style=for-the-badge&logo=c&logoColor=A8B9CC&labelColor=0d1117" />
-              <img src="https://img.shields.io/badge/C++-0d1117?style=for-the-badge&logo=cplusplus&logoColor=00599C&labelColor=0d1117" />
-              <img src="https://img.shields.io/badge/Java-0d1117?style=for-the-badge&logo=openjdk&logoColor=ED8B00&labelColor=0d1117" />
+          <td width="33%" valign="top" align="left">
+            <h4 align="left" style="color: #58a6ff; margin: 0 0 10px 0;">💻 LANGUAGES</h4>
+            <p align="left">
+              <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" /><br/>
+              <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" /><br/>
+              <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" /><br/>
+              <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
             </p>
           </td>
-          
-          <td width="3.5%" align="center" style="border-right: 1px solid #1e2436;"></td>
-          <td width="3.5%"></td>
 
           <!-- TOOLS -->
-          <td width="31%" valign="top" align="left">
-            <p style="margin: 0 0 14px 0; color: #64748b; font-size: 11px; letter-spacing: 2.5px; font-weight: 700;">TOOLS</p>
-            <p style="margin: 0; line-height: 2.2;">
-              <img src="https://img.shields.io/badge/Git-0d1117?style=for-the-badge&logo=git&logoColor=F05032&labelColor=0d1117" />
-              <img src="https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117" />
-              <img src="https://img.shields.io/badge/VS_Code-0d1117?style=for-the-badge&logo=visualstudiocode&logoColor=007ACC&labelColor=0d1117" />
-              <img src="https://img.shields.io/badge/n8n-0d1117?style=for-the-badge&logo=n8n&logoColor=EA4B71&labelColor=0d1117" />
+          <td width="33%" valign="top" align="left">
+            <h4 align="left" style="color: #bc8cff; margin: 0 0 10px 0;">⚙️ TOOLS</h4>
+            <p align="left">
+              <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" /><br/>
+              <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /><br/>
+              <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" /><br/>
+              <img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" />
             </p>
           </td>
 
-          <td width="3.5%" align="center" style="border-right: 1px solid #1e2436;"></td>
-          <td width="3.5%"></td>
-
           <!-- FOCUS -->
-          <td width="31%" valign="top" align="left">
-            <p style="margin: 0 0 14px 0; color: #64748b; font-size: 11px; letter-spacing: 2.5px; font-weight: 700;">FOCUS</p>
-            <p style="margin: 0; line-height: 2.2;">
-              <img src="https://img.shields.io/badge/AI_%26_ML-0d1117?style=for-the-badge&logo=python&logoColor=70a5fd&labelColor=0d1117" />
-              <img src="https://img.shields.io/badge/n8n_Workflows-0d1117?style=for-the-badge&logo=n8n&logoColor=EA4B71&labelColor=0d1117" />
-              <img src="https://img.shields.io/badge/Real_Estate_AI-0d1117?style=for-the-badge&logo=openai&logoColor=3fb950&labelColor=0d1117" />
-              <img src="https://img.shields.io/badge/Data_Analysis-0d1117?style=for-the-badge&logo=pandas&logoColor=150458&labelColor=0d1117" />
+          <td width="33%" valign="top" align="left">
+            <h4 align="left" style="color: #3fb950; margin: 0 0 10px 0;">🎯 FOCUS</h4>
+            <p align="left">
+              <img src="https://img.shields.io/badge/AI_%26_ML-8A2BE2?style=for-the-badge&logo=python&logoColor=white" /><br/>
+              <img src="https://img.shields.io/badge/n8n_Workflows-FF4500?style=for-the-badge&logo=n8n&logoColor=white" /><br/>
+              <img src="https://img.shields.io/badge/Real_Estate_AI-0A66C2?style=for-the-badge&logo=openai&logoColor=white" /><br/>
+              <img src="https://img.shields.io/badge/Data_Analysis-150458?style=for-the-badge&logo=pandas&logoColor=white" />
             </p>
           </td>
         </tr>
@@ -256,26 +246,22 @@ document.addEventListener('DOMContentLoaded', () => {
 
 <br/>
 
-<!-- 4. 0xpdev CENTERED SOCIAL PILL BUTTONS -->
+<!-- 4. CENTERED SOCIAL PILL BUTTONS -->
 <p align="center">
   <a href="https://github.com/vaibhavkatex" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117" />
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
   </a>
-  &nbsp;
+  &nbsp;&nbsp;
   <a href="https://www.linkedin.com/in/vaibhav-kate-47300840b" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2&labelColor=0d1117" />
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-  &nbsp;
+  &nbsp;&nbsp;
   <a href="https://www.instagram.com/vaibhavkate___" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-0d1117?style=for-the-badge&logo=instagram&logoColor=E4405F&labelColor=0d1117" />
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
   </a>
-  &nbsp;
+  &nbsp;&nbsp;
   <a href="https://wa.me/919356076623" target="_blank">
-    <img src="https://img.shields.io/badge/WhatsApp-0d1117?style=for-the-badge&logo=whatsapp&logoColor=25D366&labelColor=0d1117" />
-  </a>
-  &nbsp;
-  <a href="mailto:vaibhavkatex@gmail.com">
-    <img src="https://img.shields.io/badge/Email-0d1117?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=0d1117" />
+    <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
   </a>
 </p>
 
