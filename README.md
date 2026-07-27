@@ -3,131 +3,206 @@
 # 👋 Hey, I'm Vaibhav
 
 ### 🤖 Aspiring AI & Machine Learning Engineer
-### ⚡ AI Automation Builder • Open Source Learner
+### 💻 Python Developer • AI Automation Builder • Open Source Learner
 
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&pause=1200&color=00F7FF&center=true&vCenter=true&width=700&lines=Python+Developer;AI+%26+Machine+Learning;Building+Real-World+Projects;Open+Source+Learner;Always+Learning+🚀" />
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=28&pause=1000&color=00F7FF&center=true&vCenter=true&width=900&lines=Software+Engineer;Python+Developer;Artificial+Intelligence;Machine+Learning+Engineer;Building+Real-World+Projects;Open+Source+Learner;Always+Learning+🚀" alt="Typing SVG"/>
 
 <br>
 
-<img src="https://komarev.com/ghpvc/?username=vaibhavkatex&label=Profile+Views&style=for-the-badge&color=0e75b6"/>
+<img src="https://komarev.com/ghpvc/?username=vaibhavkatex&label=Profile%20Views&color=0e75b6&style=for-the-badge"/>
 
-<img src="https://img.shields.io/github/followers/vaibhavkatex?style=for-the-badge&logo=github"/>
+<img src="https://img.shields.io/github/followers/vaibhavkatex?style=for-the-badge&logo=github&label=Followers"/>
 
-<img src="https://img.shields.io/github/stars/vaibhavkatex?style=for-the-badge"/>
+<img src="https://img.shields.io/github/stars/vaibhavkatex?style=for-the-badge&logo=github&label=Stars"/>
 
 </div>
-<p align="center">
-  <img src="https://img.shields.io/badge/Focus-AI%20%26%20Machine%20Learning-8A2BE2?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Building-n8n%20AI%20Automations-FF4500?style=for-the-badge&logo=n8n&logoColor=white" />
-  <img src="https://img.shields.io/badge/Status-Learning%20In%20Public-00FF7F?style=for-the-badge" />
-</p>
 
 ---
 
-## 🚀 About Me
+# 🚀 About Me
 
-I'm passionate about building intelligent software, AI-powered automations, and solving real-world problems through code.
+```python
+class Vaibhav:
 
-- 🌱 Currently learning **Python for AI & Machine Learning**
-- 🤖 Building **AI-powered n8n automation workflows**
-- 🏡 Developing automation solutions for **Real Estate Businesses**
-- 💻 Building and sharing projects every single day
-- 📚 Learning in public and improving consistently
-- 🎮 Part-time Gamer • Full-time Learner
-- 🎯 Goal: Become a Professional AI Engineer
+    name = "Vaibhav Kate"
+
+    role = "Aspiring AI & Machine Learning Engineer"
+
+    code = [
+        "Python",
+        "C",
+        "Java"
+    ]
+
+    interests = [
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Automation",
+        "Open Source",
+        "Software Development"
+    ]
+
+    currently_learning = [
+        "Machine Learning",
+        "Data Science",
+        "n8n AI Automation"
+    ]
+
+    motto = "Learn • Build • Share • Repeat 🚀"
+```
 
 ---
 
-## 🛠️ Tech Stack
+# 🛠 Tech Stack
 
 ### 💻 Languages
+
+<p align="left">
+
+<img src="https://skillicons.dev/icons?i=python,c,java"/>
+
+</p>
+
+---
+
+### 🤖 AI / Machine Learning
+
 <p>
-  <img src="https://skillicons.dev/icons?i=python,c,cpp,java" alt="Languages" />
+
+<img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
+
 </p>
 
-### ⚙️ Tools & Platforms
+---
+
+### ⚙️ Tools
+
 <p>
-  <img src="https://skillicons.dev/icons?i=git,github,vscode" alt="Tools" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n" />
-</p>
 
-### 📚 Currently Learning
-<p>
-  <img src="https://skillicons.dev/icons?i=python,tensorflow" alt="Python & TensorFlow" />
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
-  <img src="https://img.shields.io/badge/Pygame-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Pygame" />
-  <img src="https://img.shields.io/badge/Machine%20Learning-FF6F00?style=for-the-badge" alt="Machine Learning" />
-  <img src="https://img.shields.io/badge/Data%20Analysis-0A66C2?style=for-the-badge" alt="Data Analysis" />
+<img src="https://skillicons.dev/icons?i=git,github,vscode"/>
+
+<img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white"/>
+
 </p>
 
 ---
 
-## ⚡ Current Projects
+# 🚀 Current Projects
 
-- 🏡 **AI-powered n8n Automation System** for a Real Estate Business
-- 🤖 **AI Workflow Automations** with LLMs
-- 📊 **Python Automation & Data Analysis Projects** (NumPy & Pandas)
-- 🎮 **Pygame & Machine Learning Experiments**
+### 🫀 Heart Disease Prediction
 
----
-
-## 🎯 2026 Goals
-
-- [ ] 🚀 Build **100+ Python Projects**
-- [ ] 🧠 Master Core AI & Machine Learning Concepts
-- [ ] ⚡ Build Production-Ready AI Automation Systems
-- [ ] 🌍 Contribute to Open Source Projects
-- [ ] 💼 Land an AI/ML Engineering Role
-- [ ] 📈 Share Learning Journey by Building in Public
+Machine Learning model using Logistic Regression deployed with Streamlit.
 
 ---
 
-## 📊 GitHub Stats & Streak
+### 🚗 BMW Price Prediction
+
+Regression model built using Python & Machine Learning.
+
+---
+
+### 🤖 AI Automation
+
+Building intelligent workflows using **n8n + AI**.
+
+---
+
+### 📊 Data Analysis
+
+Exploring datasets with **NumPy** and **Pandas**.
+
+---
+
+# 📊 GitHub Analytics
+
+<div align="center">
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=vaibhavkatex&show_icons=true&theme=tokyonight&hide_border=true"/>
+
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vaibhavkatex&layout=compact&theme=tokyonight&hide_border=true"/>
+
+</div>
+
+<br>
+
+<div align="center">
+
+<img src="https://streak-stats.demolab.com?user=vaibhavkatex&theme=tokyonight&hide_border=true"/>
+
+</div>
+
+---
+
+# 📈 Contribution Graph
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=vaibhavkatex&theme=tokyo-night&hide_border=true"/>
+
+</div>
+
+---
+
+# 🏆 GitHub Trophies
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=vaibhavkatex&theme=tokyonight&column=4&no-frame=true"/>
+
+</div>
+
+---
+
+# 🌐 Connect With Me
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=vaibhavkatex&show_icons=true&theme=tokyonight&hide_border=true" alt="Vaibhav's GitHub Stats" />
-  &nbsp;&nbsp;
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vaibhavkatex&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-</p>
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=vaibhavkatex&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+<a href="https://github.com/vaibhavkatex">
+<img src="https://img.shields.io/badge/GitHub-vaibhavkatex-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<a href="https://www.linkedin.com/in/vaibhav-kate-47300840b">
+<img src="https://img.shields.io/badge/LinkedIn-Vaibhav%20Kate-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="https://www.instagram.com/vaibhavkate___">
+<img src="https://img.shields.io/badge/Instagram-@vaibhavkate___-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
+</a>
+
+<a href="https://wa.me/919356076623">
+<img src="https://img.shields.io/badge/WhatsApp-Chat-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/>
+</a>
+
+<img src="https://img.shields.io/badge/Discord-Pinpricsx-5865F2?style=for-the-badge&logo=discord&logoColor=white"/>
+
 </p>
 
 ---
 
-## 🌐 Connect With Me
+# 💡 Quote
 
-<p align="center">
-  <a href="https://github.com/vaibhavkatex" target="_blank">
-    <img src="https://img.icons8.com/fluency/96/github.png" alt="GitHub" width="48"/>
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/vaibhav-kate-47300840b" target="_blank">
-    <img src="https://img.icons8.com/fluency/96/linkedin.png" alt="LinkedIn" width="48"/>
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://www.instagram.com/vaibhavkate___" target="_blank">
-    <img src="https://img.icons8.com/fluency/96/instagram-new.png" alt="Instagram" width="48"/>
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://wa.me/919356076623" target="_blank">
-    <img src="https://img.icons8.com/fluency/96/whatsapp.png" alt="WhatsApp" width="48"/>
-  </a>
-</p>
+<div align="center">
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=vaibhavkatex&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
-</p>
+### 🚀 "Code. Learn. Build. Repeat."
+
+*"Building skills one commit at a time."*
+
+</div>
 
 ---
 
 <div align="center">
 
-### 🚀 *"Learn • Build • Share • Repeat"*
+## ⚡ Thanks for visiting my profile!
 
-⭐ **Thanks for visiting my profile!**
+⭐ If you like my work, consider starring my repositories.
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6a11cb,100:2575fc&height=120&section=footer"/>
 
 </div>
