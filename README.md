@@ -1,4 +1,166 @@
-<div align="center">
+document.addEventListener('DOMContentLoaded', () => {
+
+  /* ============================================================
+     1. CUSTOM CURSOR & CANVAS PARTICLE TRAIL SYSTEM
+     ============================================================ */
+  const cursorDot = document.getElementById('cursorDot');
+  const cursorRing = document.getElementById('cursorRing');
+  const canvas = document.getElementById('particleCanvas');
+  const ctx = canvas.getContext('2d');
+
+  let mouseX = window.innerWidth / 2;
+  let mouseY = window.innerHeight / 2;
+  let ringX = mouseX;
+  let ringY = mouseY;
+  let cursorMode = 'cyber';
+  const particles = [];
+
+  function resizeCanvas() {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+  }
+  resizeCanvas();
+  window.addEventListener('resize', resizeCanvas);
+
+  window.addEventListener('mousemove', (e) => {
+    mouseX = e.clientX;
+    mouseY = e.clientY;
+
+    cursorDot.style.left = `${mouseX}px`;
+    cursorDot.style.top = `${mouseY}px`;
+
+    if (cursorMode !== 'minimal') {
+      createParticles(mouseX, mouseY, 2);
+    }
+  });
+
+  window.addEventListener('click', (e) => {
+    cursorRing.classList.remove('click-pulse');
+    void cursorRing.offsetWidth;
+    cursorRing.classList.add('click-pulse');
+
+    createParticles(e.clientX, e.clientY, cursorMode === 'particles' ? 18 : 10, true);
+  });
+
+  class Particle {
+    constructor(x, y, isBurst = false) {
+      this.x = x;
+      this.y = y;
+      const angle = Math.random() * Math.PI * 2;
+      const speed = isBurst ? Math.random() * 4 + 1.5 : Math.random() * 1.5 + 0.3;
+      
+      this.vx = Math.cos(angle) * speed;
+      this.vy = Math.sin(angle) * speed;
+      this.size = isBurst ? Math.random() * 4 + 2 : Math.random() * 2.5 + 1;
+      this.alpha = 1;
+      this.decay = Math.random() * 0.03 + 0.015;
+
+      if (cursorMode === 'cyber') {
+        const colors = ['#70a5fd', '#bc8cff', '#38bdf8'];
+        this.color = colors[Math.floor(Math.random() * colors.length)];
+      } else if (cursorMode === 'particles') {
+        const colors = ['#f472b6', '#facc15', '#70a5fd', '#fb923c'];
+        this.color = colors[Math.floor(Math.random() * colors.length)];
+      } else {
+        this.color = '#70a5fd';
+      }
+    }
+
+    update() {
+      this.x += this.vx;
+      this.y += this.vy;
+      this.alpha -= this.decay;
+    }
+
+    draw() {
+      ctx.save();
+      ctx.globalAlpha = Math.max(0, this.alpha);
+      ctx.fillStyle = this.color;
+      ctx.shadowBlur = 8;
+      ctx.shadowColor = this.color;
+      ctx.beginPath();
+      ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+      ctx.fill();
+      ctx.restore();
+    }
+  }
+
+  function createParticles(x, y, count, isBurst = false) {
+    for (let i = 0; i < count; i++) {
+      particles.push(new Particle(x, y, isBurst));
+    }
+  }
+
+  function animate() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    ringX += (mouseX - ringX) * 0.16;
+    ringY += (mouseY - ringY) * 0.16;
+
+    cursorRing.style.left = `${ringX}px`;
+    cursorRing.style.top = `${ringY}px`;
+
+    for (let i = particles.length - 1; i >= 0; i--) {
+      particles[i].update();
+      particles[i].draw();
+      if (particles[i].alpha <= 0) {
+        particles.splice(i, 1);
+      }
+    }
+
+    requestAnimationFrame(animate);
+  }
+  animate();
+
+  // Magnet effect
+  const magnetTargets = document.querySelectorAll('.magnet-target, a, button, .xp-card, .xp-stat-card');
+  magnetTargets.forEach(target => {
+    target.addEventListener('mouseenter', () => {
+      cursorRing.classList.add('active-hover');
+    });
+    target.addEventListener('mouseleave', () => {
+      cursorRing.classList.remove('active-hover');
+    });
+  });
+
+  // Cursor Mode Switcher
+  const cursorModeBtns = document.querySelectorAll('.cursor-mode-btn');
+  cursorModeBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      cursorModeBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      cursorMode = btn.getAttribute('data-mode');
+    });
+  });
+
+  /* ============================================================
+     2. NAVIGATION TAB SYSTEM
+     ============================================================ */
+  const tabBtns = document.querySelectorAll('.tab-btn');
+  const tabPanes = document.querySelectorAll('.tab-pane');
+
+  tabBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const targetTab = btn.getAttribute('data-tab');
+
+      tabBtns.forEach(b => b.classList.remove('active'));
+      tabPanes.forEach(p => p.classList.remove('active'));
+
+      btn.classList.add('active');
+      const activePane = document.getElementById(targetTab);
+      if (activePane) {
+        activePane.classList.add('active');
+      }
+    });
+  });
+
+  /* ============================================================
+     3. README MARKDOWN CODE EXPORTER
+     ============================================================ */
+  const readmeCodeBlock = document.getElementById('readmeCodeBlock');
+  const copyReadmeBtn = document.getElementById('copyReadmeBtn');
+
+  const rawReadmeMarkdown = `<div align="center">
 
 <!-- 1. HEADER HERO CARD -->
 <table border="0" cellspacing="0" cellpadding="0" width="100%">
@@ -109,13 +271,13 @@
 
 ## 🚀 About Me
 
-```yaml
+\`\`\`yaml
 Name: Vaibhav
 Role: Aspiring AI & Machine Learning Engineer
 Focus: AI-Powered Automations (n8n), Python ML Ecosystem, Real Estate Solutions
 Passions: Building in Public, Game Dev (Pygame), Open Source Learning
 Current_Goal: Mastering Python, NumPy, Pandas, TensorFlow & AI Agents
-```
+\`\`\`
 
 ---
 
@@ -162,4 +324,41 @@ Current_Goal: Mastering Python, NumPy, Pandas, TensorFlow & AI Agents
 > *"Learn • Build • Share • Repeat"*  
 ⭐ **Open to collaborations, freelance work, and interesting AI ideas!**
 
-</div>
+</div>`;
+
+  if (readmeCodeBlock) {
+    readmeCodeBlock.textContent = rawReadmeMarkdown;
+  }
+
+  if (copyReadmeBtn) {
+    copyReadmeBtn.addEventListener('click', () => {
+      navigator.clipboard.writeText(rawReadmeMarkdown).then(() => {
+        const originalText = copyReadmeBtn.innerHTML;
+        copyReadmeBtn.innerHTML = `<i class="fa-solid fa-check"></i> Copied Markdown!`;
+        copyReadmeBtn.style.background = 'linear-gradient(135deg, #4ade80, #16a34a)';
+        copyReadmeBtn.style.color = '#ffffff';
+
+        setTimeout(() => {
+          copyReadmeBtn.innerHTML = originalText;
+          copyReadmeBtn.style.background = '';
+          copyReadmeBtn.style.color = '';
+        }, 2500);
+      });
+    });
+  }
+
+  // Goals counter
+  const goalCbs = document.querySelectorAll('.goal-cb');
+  const goalsProgress = document.getElementById('goalsProgress');
+
+  function updateGoals() {
+    const total = goalCbs.length;
+    const checked = Array.from(goalCbs).filter(cb => cb.checked).length;
+    if (goalsProgress) {
+      goalsProgress.textContent = `${checked} / ${total} Completed`;
+    }
+  }
+
+  goalCbs.forEach(cb => cb.addEventListener('change', updateGoals));
+  updateGoals();
+});
