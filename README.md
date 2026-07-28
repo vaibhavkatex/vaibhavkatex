@@ -12,12 +12,12 @@
 I'm passionate about building intelligent software, AI-powered automations, and solving real-world problems through code.
 
 - 🌱 Currently learning **Python for AI & Machine Learning**
-- 🤖 Building **AI-powered n8n automation workflows**
-- 🏡 Developing automation solutions for **Real Estate Businesses**
-- 💻 Building and sharing projects every day
+- 🤖 Building **Machine Learning Models**
+- 🏡 Developing Real World Projects for **Slove Real world Problems**
+- 💻 Building and sharing projects every day or Week
 - 📚 Learning in public and improving consistently
 - 🎮 Part-time Gamer • Full-time Learner
-- 🎯 Goal: Become a Professional AI Engineer
+- 🎯 Goal: Become a Professional ML Engineer
 
 ---
 
