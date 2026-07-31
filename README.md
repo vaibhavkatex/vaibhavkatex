@@ -53,12 +53,9 @@ I'm passionate about building intelligent software, AI-powered automations, and 
 ---
 
 ## 🔥 GitHub Streak
-
-<p align="center">
-  <img
-    src="https://streak-stats.demolab.com?user=vaibhavkatex&theme=tokyonight&hide_border=true"
-    alt="Vaibhav Katex's GitHub Streak"
-  />
+  <p align="center">
+  <img src="https://streak-stats.demolab.com?user=vaibhavkatex&theme=tokyonight&hide_border=true&cache_seconds=86400&v=5" />
+</p>
 </p>
 
 ---
