@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Vaibhav</h1>
-<h3 align="center">Aspiring AI & Machine Learning Engineer | Open Source Learner</h3>
+<h3 align="center">AI & Machine Learning Engineer | Data science | Open Source Learner</h3>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=vaibhavkatex&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
