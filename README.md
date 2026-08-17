@@ -40,7 +40,6 @@ I'm passionate about building intelligent software, AI-powered automations, and 
 
 <p align="left">
 <img src="https://go-skill-icons.vercel.app/api/icons?i=python,tensorflow,numpy,pandas" height="55"/>
-<img src="https://img.shields.io/badge/Pygame-3776AB?style=for-the-badge&logo=pygame&logoColor=white"/>
 <img src="https://img.shields.io/badge/Machine%20Learning-FF6F00?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
 <img src="https://img.shields.io/badge/Data%20Analysis-0A66C2?style=for-the-badge&logo=tableau&logoColor=white"/>
 </p>
